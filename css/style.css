@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;;
+}
+
+li {
+    list-style: none;
+    color: lightgray;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-1 {
+    display: flex;
+}
+
+aside {
+    height: calc(100vh - 90px);
+    width: 230px;
+    background-color: black;
+}
+
+main {
+    width: calc(100vw - 230px);
+    height: calc(100vh - 90px);
+    background-color: black;
+}
+
+.upgrade {
+    height: 90px;
+    width: calc(100vw - 230px);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    width: 100%;
+    height: calc(100vh - 90px);
+    background-color: #141922;
+    padding-left: 25px;
+    padding-right: 25px;
+    overflow-y: auto;
+}
+
+.left-bar {
+    padding: 20px;
+}
+
+.logo {
+    height: 70px;
+}
+
+.spotify {
+    width: 143px;
+}
+
+nav {
+    height: 120px;
+}
+
+.nav-img {
+    display: block;
+    width: 30px;
+    margin-bottom: 12px;
+}
+
+.nav {
+    display: flex;
+}
+
+.playlist {
+    height: 330px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.playlist-text {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.plus-icon {
+    color: lightgray;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.playlist-name {
+    font-weight: bold;
+    color: lightgray;
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+.btn {
+    padding: 10px 40px;
+    background-color: transparent;
+    margin-right: 21px;
+    border-radius: 100px;
+    border: 1px solid white;
+    color: white;
+}
+
+.nav-content {
+    padding-top: 110px;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-weight: 600;
+}
+
+.row-content-first {
+    margin-top: 45px;
+    display: flex;
+    gap: 20px;
+}
+
+.row-content-second {
+    display: flex;
+    gap: 20px;
+}
+
+.row-content-third {
+    display: flex;
+    gap: 20px;
+}
+
+.row-title {
+    color: white;
+    margin-top: 50px;
+}
+
+.row-title-sub {
+    color: rgb(163, 163, 163);
+    margin-top: 15px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.album-container {
+    width: 250px;
+    height: 350px;
+    /* background-color: blue; */
+}
+
+.album-container.second-row {
+    height: 300px;
+}
+
+.album-container.third-row {
+    height: 300px;
+}
+
+.album-cover-1.album {
+    background-image: url('../img/metal_lifting.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    background-size: contain;
+}
+
+.album-cover-2.album {
+    background-image: url('../img/stranger.jpeg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    background-size: contain;
+}
+
+.album-cover-3.album {
+    background-image: url('../img/aquietplace.jpeg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    background-size: contain;
+}
+
+.album-cover-4.album {
+    background-image: url('../img/split.jpeg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    background-size: contain;
+}
+
+.album-cover-5.album {
+    background-image: url('../img/cure.jpeg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    background-size: contain;
+}
+
+.album-cover-6.album {
+    background-image: url('../img/sinister.jpeg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    background-size: contain;
+}
+
+.album-cover-7.album {
+    background-image: url('../img/radar.jpeg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    background-size: contain;
+}
+
+.album-cover-8.album {
+    background-image: url('../img/mixdaily.jpeg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    background-size: contain;
+}
+
+.album-cover-9.album {
+    background-image: url('../img/youg.jpeg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    background-size: contain;
+}
+
+.album-cover-10.album {
+    background-image: url('../img/einaudi.jpeg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    background-size: contain;
+}
+
+.album-hover.album {
+    display: none;
+}
+
+.album-title {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.album-artist {
+    text-align: center;
+    color: rgb(163, 163, 163);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+footer {
+    width: 100%;
+    height: 90px;
+    background-color: grey;
+    display: flex;
+}
+
+.left-footer {
+    display: flex;
+    width: 20%;
+    background-color: red;
+    padding: 15px;
+}
+
+.mid-footer {
+    width: 60%;
+    background-color: white;
+}
+
+.right-footer {
+    display: flex;
+    width: 20%;
+    background-color: red;
+}
+
+.play {
+    display: flex;
+}
+
+.lenght-bar {
+    display: flex;
+}
+
+.footer-img {
+    margin-right: 10px;
+}
+
+.current-song {
+    padding-top: 25px;
+}
+
+.save-icons {
+    padding-top: 25px;
+    margin-left: 55px;
+}
+
+.heart {
+    padding-right: 10px
+}
+
+.footer-song-album-name {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer-song-name {
+    font-size: 12px;
+    color: lightgray;
+}
+
+.play {
+    height: 50%;
+    width: 100%;
+    background-color: green;
+    display: inline-block;
+}
+
+.play ul {
+    margin-top: 10px;
+    font-size: 20px;
+    gap: 35px;
+}
+
+.big-icon {
+    font-size: 25px;
+}
+
+.right-footer ul {
+    margin-left: auto;
+}

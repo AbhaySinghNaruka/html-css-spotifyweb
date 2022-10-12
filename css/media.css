@@ -1,5 +1,7 @@
-@media screen and (min-width: 639px) and (max-width: 878px){
+@media screen and (max-width: 878px){
 
-
+    .album-container {
+        min-width: calc(100% / 4);
+    }
     
 }

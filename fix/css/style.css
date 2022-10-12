@@ -44,7 +44,7 @@ main {
 }
 
 .content {
-    width: 100%;
+    width: calc(100vw - 230px);
     height: calc(100vh - 90px);
     background-color: #141922;
     padding-left: 25px;
@@ -114,6 +114,7 @@ nav {
 .nav-content {
     padding-top: 110px;
     text-align: center;
+    width: 100%;
 }
 
 ul {
@@ -121,8 +122,57 @@ ul {
     justify-content: center;
     gap: 25px;
     font-weight: 600;
+    width: 100%;
 }
 
+.row {
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 75px;
+}
+
+
+.row-subtitle {
+    color: rgb(145, 145, 145);
+}
+
+.row-title {
+    color: white;
+    margin-top: 50px;
+}
+
+.album-container {
+    width: calc(100% / 6 - 15px);
+}
+
+.album-cover {
+    width: 100%;
+}
+
+.album-info {
+    text-align: center;
+}
+
+.album-title {
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.album-subtitle {
+    color: rgb(145, 145, 145);
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.popular-artist {
+    border-radius: 100%;
+}
+
+/*------------------------------------------------------
 .row-content-first {
     margin-top: 45px;
     display: flex;
@@ -139,10 +189,6 @@ ul {
     gap: 20px;
 }
 
-.row-title {
-    color: white;
-    margin-top: 50px;
-}
 
 .row-title-sub {
     color: rgb(163, 163, 163);
@@ -155,7 +201,6 @@ ul {
     width: 250px;
     height: 350px;
     display: block;
-    /* background-color: blue; */
 }
 
 .album-img {
@@ -270,7 +315,7 @@ ul {
     font-weight: bold;
     font-size: 12px;
 }
-
+-----------------------------------------------------*/
 footer {
     width: 100%;
     height: 90px;
@@ -281,19 +326,16 @@ footer {
 .left-footer {
     display: flex;
     width: 20%;
-    /* background-color: red; */
     padding: 15px;
 }
 
 .mid-footer {
     width: 60%;
-    /* background-color: white; */
 }
 
 .right-footer {
     display: flex;
     width: 20%;
-    /* background-color: red; */
 }
 
 .play {
